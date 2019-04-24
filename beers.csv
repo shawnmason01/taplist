@@ -1,0 +1,9 @@
+BeerNum,BeerName,Style,ABV,IBU,SRM,Hops
+Beer1,Hanky Panky,American Wheat with Apricot,5.5,11.7,1,1
+Beer2,The Count,American Wheat with Blood Orange and Honey,6.8,11.7,3,1
+Beer3,I Pee a Little,"Session IPA (mosaic, citra)",4.7,68.1,7,3
+Beer4,Assaulted Citrus,Saison with Salted Grapefruit,6.33,22.2,4,2
+Beer5,Orange Soda,Plain and Simple Soda,0,0,3,0
+Beer6,Chanilla Ice,Imperial Vanilla Porter with Cherries,9.8,21.7,22,2
+Beer7,UNAVAILABLE,,-,-,0,0
+Beer8,UNAVAILABLE,,-,-,0,0
