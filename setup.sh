@@ -8,6 +8,6 @@ sudo a2enmod rewrite
 sudo service apache2 restart
 #Install PHP
 sudo apt-get install php libapache2-mod-php -y
-sudo cp * /etc/www/html
-cd /etc/www/html
+sudo cp * /var/www/html
+cd /var/www/html
 sudo rm index.html
