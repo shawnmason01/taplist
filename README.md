@@ -13,4 +13,4 @@ Run the Setup
 
 ./setup.sh
 
-Edit Beers by editing the CSV file in /etc/www/html/beers.csv
+Edit Beers by editing the CSV file in /var/www/html/beers.csv
