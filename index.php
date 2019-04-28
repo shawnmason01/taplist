@@ -60,7 +60,7 @@
         <?php echo $abv['Beer1'], " % ABV"; ?>
         <br/>
         <?php echo $ibu['Beer1'], " IBU"; ?>
-        <br/><?php echo "<img src='images/", $hops['Beer1'], " Hops.png' height='30'></center>"; ?>
+        <br/><?php echo "<img src='images/", $hops['Beer1'], ".png' height='30'></center>"; ?>
         </td>
     <td></td>
     <td><h2>Tap #4</h2></td>
@@ -75,7 +75,7 @@
         <?php echo $abv['Beer4'], " % ABV"; ?>
         <br/>
         <?php echo $ibu['Beer4'], " IBU"; ?>
-        <br/><?php echo "<img src='images/", $hops['Beer4'], " Hops.png' height='30'></center>"; ?>
+        <br/><?php echo "<img src='images/", $hops['Beer4'], ".png' height='30'></center>"; ?>
         </td>
     
 </tr>
@@ -93,7 +93,7 @@
         <?php echo $abv['Beer2'], " % ABV"; ?>
         <br/>
         <?php echo $ibu['Beer2'], " IBU"; ?>
-        <br/><?php echo "<img src='images/", $hops['Beer2'], " Hops.png' height='30'></center>"; ?>
+        <br/><?php echo "<img src='images/", $hops['Beer2'], ".png' height='30'></center>"; ?>
         </td>
     <td></td>
     <td><h2>Tap #5</h2></td>
@@ -108,7 +108,7 @@
         <?php echo $abv['Beer5'], " % ABV"; ?>
         <br/>
         <?php echo $ibu['Beer5'], " IBU"; ?>
-        <br/><?php echo "<img src='images/", $hops['Beer5'], " Hops.png' height='30'></center>"; ?>
+        <br/><?php echo "<img src='images/", $hops['Beer5'], ".png' height='30'></center>"; ?>
         </td>
     
 </tr>
@@ -126,7 +126,7 @@
         <?php echo $abv['Beer3'], " % ABV"; ?>
         <br/>
         <?php echo $ibu['Beer3'], " IBU"; ?>
-        <br/><?php echo "<img src='images/", $hops['Beer3'], " Hops.png' height='30'></center>"; ?>
+        <br/><?php echo "<img src='images/", $hops['Beer3'], ".png' height='30'></center>"; ?>
         </td>
     <td></td>
     <td><h2>Tap #6</h2></td>
@@ -141,7 +141,7 @@
         <?php echo $abv['Beer6'], " % ABV"; ?>
         <br/>
         <?php echo $ibu['Beer6'], " IBU"; ?>
-        <br/><?php echo "<img src='images/", $hops['Beer6'], " Hops.png' height='30'></center>"; ?>
+        <br/><?php echo "<img src='images/", $hops['Beer6'], ".png' height='30'></center>"; ?>
         </td>
     
 </tr>
