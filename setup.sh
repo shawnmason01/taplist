@@ -1,10 +1,28 @@
 #!/bin/bash
-echo 'How many taps do you want to setup? (2 to 12)'
+echo 'How many taps do you want to setup? (enter an integer from 1-12)'
 read taps
+if [  $taps == "1"  ]; then
+      echo "$taps tap coming up"
+      cp 1.php index.php
+      #Update system
+      sudo apt-get update
+      sudo apt-get upgrade -y
+      #Install Apache2
+      sudo apt-get install apache2 -y
+      sudo a2enmod rewrite
+      sudo service apache2 restart
+      #Install PHP
+      sudo apt-get install php libapache2-mod-php -y
+      sudo chmod 755 /var/www/html
+      sudo cp * /var/www/html
+      cd /var/www/html
+      #Remove base apache index
+      sudo rm index.html
+fi
+
 if [  $taps == "2"  ]; then
       echo "$taps taps coming up"
-      git branch 2taps
-      git pull
+      cp 2.php index.php
       #Update system
       sudo apt-get update
       sudo apt-get upgrade -y
@@ -23,8 +41,7 @@ fi
 
 if [  $taps == "3"  ]; then
       echo "$taps taps coming up"
-      git branch 3taps
-      git pull
+      cp 3.php index.php
       #Update system
       sudo apt-get update
       sudo apt-get upgrade -y
@@ -43,8 +60,7 @@ fi
 
 if [  $taps == "4"  ]; then
       echo "$taps taps coming up"
-      git branch 4taps
-      git pull
+      cp 4.php index.php
       #Update system
       sudo apt-get update
       sudo apt-get upgrade -y
@@ -63,8 +79,7 @@ fi
 
 if [  $taps == "5"  ]; then
       echo "$taps taps coming up"
-      git branch 5taps
-      git pull
+      cp 5.php index.php
       #Update system
       sudo apt-get update
       sudo apt-get upgrade -y
@@ -83,8 +98,7 @@ fi
 
 if [  $taps == "6"  ]; then
       echo "$taps taps coming up"
-      git branch 6taps
-      git pull
+      cp 6.php index.php
       #Update system
       sudo apt-get update
       sudo apt-get upgrade -y
@@ -103,8 +117,7 @@ fi
 
 if [  $taps == "7"  ]; then
       echo "$taps taps coming up"
-      git branch 7taps
-      git pull
+      cp 7.php index.php
       #Update system
       sudo apt-get update
       sudo apt-get upgrade -y
@@ -123,8 +136,7 @@ fi
 
 if [  $taps == "8"  ]; then
       echo "$taps taps coming up"
-      git branch 8taps
-      git pull
+      cp 8.php index.php
       #Update system
       sudo apt-get update
       sudo apt-get upgrade -y
@@ -143,8 +155,7 @@ fi
 
 if [  $taps == "9"  ]; then
       echo "$taps taps coming up"
-      git branch 9taps
-      git pull
+      cp 9.php index.php
       #Update system
       sudo apt-get update
       sudo apt-get upgrade -y
@@ -163,8 +174,7 @@ fi
 
 if [  $taps == "10"  ]; then
       echo "$taps taps coming up"
-      git branch 10taps
-      git pull
+      cp 10.php index.php
       #Update system
       sudo apt-get update
       sudo apt-get upgrade -y
@@ -183,8 +193,7 @@ fi
 
 if [  $taps == "11"  ]; then
       echo "$taps taps coming up"
-      git branch 11taps
-      git pull
+      cp 11.php index.php
       #Update system
       sudo apt-get update
       sudo apt-get upgrade -y
@@ -203,8 +212,7 @@ fi
 
 if [  $taps == "12"  ]; then
       echo "$taps taps coming up"
-      git branch 12taps
-      git pull
+      cp 12.php index.php
       #Update system
       sudo apt-get update
       sudo apt-get upgrade -y
